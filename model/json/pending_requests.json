@@ -1,0 +1,52 @@
+[
+  {
+    "user_name": "sam",
+    "password": "S@mpleP@sswOrd123",
+    "status": "requested"
+  },
+  {
+    "user_name": "riya",
+    "password": "RiyaP@sswOrd456!",
+    "status": "viewed"
+  },
+  {
+    "user_name": "alex",
+    "password": "AlexP@ss789$",
+    "status": "requested"
+  },
+  {
+    "user_name": "maya",
+    "password": "MayaP@ssWOrd1011",
+    "status": "viewed"
+  },
+  {
+    "user_name": "dev",
+    "password": "DevP@ss1234_",
+    "status": "requested"
+  },
+  {
+    "user_name": "isha",
+    "password": "IshaP@ss5678+",
+    "status": "viewed"
+  },
+  {
+    "user_name": "noah",
+    "password": "NoahP@ss9012-",
+    "status": "requested"
+  },
+  {
+    "user_name": "olivia",
+    "password": "OliviaP@ss3456=",
+    "status": "viewed"
+  },
+  {
+    "user_name": "liam",
+    "password": "LiamP@ss7890*",
+    "status": "requested"
+  },
+  {
+    "user_name": "emma",
+    "password": "EmmaP@ss12345&",
+    "status": "viewed"
+  }
+]

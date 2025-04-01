@@ -1,0 +1,44 @@
+{
+    "user_id": 106,
+    "user_name": "anekant",
+    "personal_tasks": [
+        {
+            "task_name": "Read News",
+            "task_description": "Read daily news articles.",
+            "task_start_time": "2025-04-09T07:00:00",
+            "task_end_time": "2025-04-09T07:30:00",
+            "task_priority": 5,
+            "task_duration": "0:30:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Project Management",
+            "task_description": "Create project timeline and milestones.",
+            "task_start_time": "2025-04-13T09:00:00",
+            "task_end_time": "2025-04-17T17:00:00",
+            "task_priority": 7,
+            "task_duration": "4 days, 8:00:00",
+            "assignee": 106,
+            "team": "Project Management"
+        },
+        {
+            "task_name": "Client Meeting",
+            "task_description": "Prepare presentation for client meeting.",
+            "task_start_time": "2025-04-28T10:00:00",
+            "task_end_time": "2025-04-28T12:00:00",
+            "task_priority": 9,
+            "task_duration": "2:00:00",
+            "assignee": "root",
+            "team": "Sales"
+        }
+    ],
+    "phone_number": 4445556666,
+    "email_id": "anekant@example.com",
+    "address": "Kolkata, India",
+    "teams": [
+        "Project Management",
+        "Sales"
+    ]
+    ,"messages":[]
+}

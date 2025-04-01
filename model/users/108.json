@@ -1,0 +1,44 @@
+{
+    "user_id": 108,
+    "user_name": "banjot",
+    "personal_tasks": [
+        {
+            "task_name": "Plan Weekend Trip",
+            "task_description": "Research and plan a weekend trip.",
+            "task_start_time": "2025-04-11T14:00:00",
+            "task_end_time": "2025-04-11T16:00:00",
+            "task_priority": 8,
+            "task_duration": "2:00:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Financial Report",
+            "task_description": "Prepare monthly financial report.",
+            "task_start_time": "2025-04-15T11:00:00",
+            "task_end_time": "2025-04-19T17:00:00",
+            "task_priority": 8,
+            "task_duration": "4 days, 6:00:00",
+            "assignee": 108,
+            "team": "Finance"
+        },
+        {
+            "task_name": "Budget Planning",
+            "task_description": "Create budget plan for next quarter.",
+            "task_start_time": "2025-04-30T10:00:00",
+            "task_end_time": "2025-05-02T16:00:00",
+            "task_priority": 9,
+            "task_duration": "2 days, 6:00:00",
+            "assignee": "root",
+            "team": "Accounting"
+        }
+    ],
+    "phone_number": 2223334444,
+    "email_id": "banjot@example.com",
+    "address": "Jaipur, India",
+    "teams": [
+        "Finance",
+        "Accounting"
+    ]
+    ,"messages":[]
+}

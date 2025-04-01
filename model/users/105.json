@@ -1,0 +1,49 @@
+{
+    "user_id": 105,
+    "user_name": "atharv",
+    "personal_tasks": [
+        {
+            "task_name": "Learn Python",
+            "task_description": "Study Python basics.",
+            "task_start_time": "2025-04-08T19:00:00",
+            "task_end_time": "2025-04-08T20:00:00",
+            "task_priority": 7,
+            "task_duration": "1:00:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Data Analysis",
+            "task_description": "Analyze sales data for trends.",
+            "task_start_time": "2025-04-12T10:00:00",
+            "task_end_time": "2025-04-16T18:00:00",
+            "task_priority": 6,
+            "task_duration": "4 days, 8:00:00",
+            "assignee": 105,
+            "team": "Data Science"
+        },
+        {
+            "task_name": "Machine Learning Model",
+            "task_description": "Train and evaluate machine learning model.",
+            "task_start_time": "2025-04-24T10:00:00",
+            "task_end_time": "2025-04-27T16:00:00",
+            "task_priority": 8,
+            "task_duration": "3 days, 6:00:00",
+            "assignee": "root",
+            "team": "Machine Learning"
+        }
+    ],
+    "phone_number": 1112223333,
+    "email_id": "atharv@example.com",
+    "address": "Chennai, India",
+    "teams": [
+        "Data Science",
+        "Machine Learning"
+    ],
+    "messages": [
+        [
+            "101 arsh",
+            "hello atharv"
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "user_id": 107,
+    "user_name": "athrva",
+    "personal_tasks": [
+        {
+            "task_name": "Play Guitar",
+            "task_description": "Practice guitar for an hour.",
+            "task_start_time": "2025-04-10T20:00:00",
+            "task_end_time": "2025-04-10T21:00:00",
+            "task_priority": 6,
+            "task_duration": "1:00:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Content Creation",
+            "task_description": "Write blog post for company website.",
+            "task_start_time": "2025-04-14T10:00:00",
+            "task_end_time": "2025-04-18T18:00:00",
+            "task_priority": 6,
+            "task_duration": "4 days, 8:00:00",
+            "assignee": 107,
+            "team": "Content Marketing"
+        },
+        {
+            "task_name": "Social Media Campaign",
+            "task_description": "Plan social media posts for next week.",
+            "task_start_time": "2025-04-29T10:00:00",
+            "task_end_time": "2025-04-30T16:00:00",
+            "task_priority": 7,
+            "task_duration": "1 days, 6:00:00",
+            "assignee": "root",
+            "team": "Social Media"
+        }
+    ],
+    "phone_number": 7778889999,
+    "email_id": "athrva@example.com",
+    "address": "Pune, India",
+    "teams": [
+        "Content Marketing",
+        "Social Media"
+    ]
+    ,"messages":[]
+}

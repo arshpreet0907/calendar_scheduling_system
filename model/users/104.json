@@ -1,0 +1,49 @@
+{
+    "user_id": 104,
+    "user_name": "ashish",
+    "personal_tasks": [
+        {
+            "task_name": "Gym Workout",
+            "task_description": "Complete full body workout.",
+            "task_start_time": "2025-04-07T17:00:00",
+            "task_end_time": "2025-04-07T18:30:00",
+            "task_priority": 8,
+            "task_duration": "1:30:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Security Audit",
+            "task_description": "Conduct security vulnerability assessment.",
+            "task_start_time": "2025-04-11T09:00:00",
+            "task_end_time": "2025-04-15T17:00:00",
+            "task_priority": 8,
+            "task_duration": "4 days, 8:00:00",
+            "assignee": 104,
+            "team": "Security"
+        },
+        {
+            "task_name": "Cloud Deployment",
+            "task_description": "Deploy application to cloud environment.",
+            "task_start_time": "2025-04-21T10:00:00",
+            "task_end_time": "2025-04-23T16:00:00",
+            "task_priority": 7,
+            "task_duration": "2 days, 6:00:00",
+            "assignee": "root",
+            "team": "DevOps"
+        }
+    ],
+    "phone_number": 5551234567,
+    "email_id": "ashish@example.com",
+    "address": "Bangalore, India",
+    "teams": [
+        "Security",
+        "DevOps"
+    ],
+    "messages": [
+        [
+            "101 arsh",
+            "hello ashish"
+        ]
+    ]
+}

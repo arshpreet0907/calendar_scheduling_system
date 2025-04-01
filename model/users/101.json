@@ -1,0 +1,60 @@
+{
+    "user_id": 101,
+    "user_name": "arsh",
+    "personal_tasks": [
+        {
+            "task_name": "Personal Project",
+            "task_description": "Develop a personal portfolio website.",
+            "task_start_time": "2025-04-05T10:00:00",
+            "task_end_time": "2025-04-10T18:00:00",
+            "task_priority": 6,
+            "task_duration": "5 days, 8:00:00"
+        },
+        {
+            "task_name": "Fitness Routine",
+            "task_description": "Complete daily workout routine.",
+            "task_start_time": "2025-04-02T07:00:00",
+            "task_end_time": "2025-04-02T08:00:00",
+            "task_priority": 9,
+            "task_duration": "1:00:00"
+        },
+        {
+            "task_name": "Read a Book",
+            "task_description": "Read 'The Hitchhiker's Guide to the Galaxy'.",
+            "task_start_time": "2025-04-03T20:00:00",
+            "task_end_time": "2025-04-03T21:30:00",
+            "task_priority": 4,
+            "task_duration": "1:30:00"
+        }
+    ],
+    "professional_tasks": [
+        {
+            "task_name": "Frontend Development",
+            "task_description": "Implement user interface for new feature.",
+            "task_start_time": "2025-04-08T09:00:00",
+            "task_end_time": "2025-04-12T17:00:00",
+            "task_priority": 7,
+            "task_duration": "4 days, 8:00:00",
+            "assignee": 101,
+            "team": "Web Development"
+        },
+        {
+            "task_name": "Database Optimization",
+            "task_description": "Optimize database queries for performance.",
+            "task_start_time": "2025-04-15T10:00:00",
+            "task_end_time": "2025-04-17T16:00:00",
+            "task_priority": 8,
+            "task_duration": "2 days, 6:00:00",
+            "assignee": "root",
+            "team": "Backend Engineering"
+        }
+    ],
+    "phone_number": 9691085539,
+    "email_id": "arshpreet.singh@gmail.com",
+    "address": "mahoba road chhatarpur M.P.",
+    "teams": [
+        "Web Development",
+        "Backend Engineering"
+    ],
+    "messages": []
+}
