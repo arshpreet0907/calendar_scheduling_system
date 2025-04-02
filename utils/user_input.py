@@ -94,7 +94,7 @@ def phone_number_input(message):
         if not phone_number.isdigit():
             print('Phone number can only have digits 0-9')
         if len(phone_number)!=10:
-            print('Phone number should be long 10 digits long')
+            print('Phone number should be 10 digits long')
         else:
             return int(phone_number)
    
@@ -170,8 +170,9 @@ def address_input(message):
     pin_code=custom_input('Enter pin code : ')
     state=custom_input('Enter state : ')
     
-    address=house_or_locality+' '+street_name_or_landmark+' '+city+' '+pin_code+' '+state
-    return address
+    address={'house_or_locality':house_or_locality,'street_name_or_landmark':street_name_or_landmark,'city':city,'pin_code':pin_code,'state':state}
+    address_str=house_or_locality+' '+street_name_or_landmark+' '+city+' '+pin_code+' '+state
+    return address,address_str
     #try returning dictionary for each field for individual corrections
     
 def year_input(today):

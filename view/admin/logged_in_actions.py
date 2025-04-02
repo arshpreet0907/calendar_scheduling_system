@@ -240,7 +240,36 @@ def create_new_task():
             
 
 def show_admin_calendar():
-    show_calendar('root','professional_tasks')
+    calendar_flag=True
+    while calendar_flag:
+        calendar_choice=custom_input('''Do you want to see tasks for all users or a particular user?
+        please Enter
+        1 for all users
+        2 for particular user 
+        0 to exit
+        else to go again''')
+        if calendar_choice=='1':
+            show_calendar('root','professional_tasks')
+            calendar_flag=False
+        elif calendar_choice=='2':
+            user_id_flag=True
+            user_ids=[user['user_id'] for user in get_user_credential_data()]
+            while user_id_flag:
+                user_id_choice=int_input('Enter user id to particular calendar (enter 0 to exit) : ')
+                if user_id_choice in user_ids:
+                    user=get_specific_user_data(user_id_choice)
+                    user_id=user['user_id']
+                    user_name=user['user_name']
+                    user_id_confirm_choice=custom_input(f'input user  {user_id} {user_name} \nEnter 1 to confirm \n0 to exit \nelse to go again : ')
+                    if user_id_confirm_choice=='1':
+                        show_calendar(user_id_choice,'PROFESSIONAL')
+                    elif user_id_confirm_choice=='0':
+                        return
+        elif calendar_choice=='0':
+            return
+        
+    
+    
     
 
 def change_password_admin(logged_in_admin_name):

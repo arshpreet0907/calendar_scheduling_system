@@ -5,6 +5,7 @@ from utils import put_pending_request_data
 from utils import password_input
 from utils import custom_input 
 from utils import int_input
+from utils import get_specific_user_data
 
 def is_valid_user_name(user_name):
     pending_request_data=get_pending_request_data()
@@ -53,8 +54,10 @@ def user_registration():
                         return
             elif confirm_flag==cons.EXIT.value:
                 return
+
 def user_log_in():
  
+    
     user_credential_data=get_user_credential_data()
     if not len(user_credential_data):
         return "No "
@@ -65,7 +68,12 @@ def user_log_in():
         
         user_id=int_input('Please enter user id (Enter 0 to exit):\n')
         if user_id  in user_id_list:
-            break
+            if is_profile_complete():
+                break
+            else:
+                is_complete=complete_user_profile()
+                if is_complete:
+                    break
         elif user_id==0:
             print(cons.LOGIN_FAILED.value)
             return '0'
@@ -89,6 +97,19 @@ def user_log_in():
                 print(cons.INVALID_PASSWORD.value)
             
     return user_id      
+
+def is_profile_complete(user_id):
+    user_data=get_specific_user_data(user_id)
+    if user_data["phone_number"]== 0:
+        return False
+    elif user_data["email_id"]== "":
+        return False
+    if user_data["address"]== "":
+        return False
+    else:
+        return True
+
+def complete_user_profile(user_id):pass
 
 def view_pending_request():
     pending_request_data=get_pending_request_data()

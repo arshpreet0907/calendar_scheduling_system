@@ -27,6 +27,7 @@ def is_task_in_month(month,year,task):
 def dates_in_month_year_with_tasks_user(logged_in_id,month,year,task_type):
     dates_in_month_year=set({}) 
     user_data=get_specific_user_data(logged_in_id)
+    
     if task_type=='PERSONAL':
         tasks=user_data['personal_tasks']
     else:
@@ -61,8 +62,9 @@ def dates_in_month_year_with_tasks(logged_in_id,month,year,task_type)->list[int]
     else:
         users=get_user_credential_data()
         for user in users:
-            dates_in_month_year.add(dates_in_month_year_with_tasks_user(user['user_id'],month,year,'professional_tasks'))
-        return dates_in_month_year
+            
+            dates_in_month_year.update(dates_in_month_year_with_tasks_user(user['user_id'],month,year,'professional_tasks'))
+    return dates_in_month_year
 
 def show_calendar(logged_in_id,task_type):
     print(f'\nCALENDER TO SHOW DATES WITH {task_type} TASKS\n')

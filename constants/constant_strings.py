@@ -122,6 +122,7 @@ class ConstantStringEnum(Enum):
     1 to show pending registration requests
     2 to show user data
     3 to show today's tasks
+    to show particular date task
     4 to create new task
     5 to change password
     6 to create new user
